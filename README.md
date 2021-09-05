@@ -46,5 +46,9 @@ Happy | 53.42% | 65.44% | 64.06% | **69.59%**
 Neutral | 38.06% | **43.90%** | 32.28% | 38.81%
 Sad | 50.00% | 19.72% | 27.78% | **54.17%**
 
-
+While this margin was 13.93% in
+the video baseline, it increased to 16.08% in the audio-visual model, resulting
+in all classes falsely classied as neutral having an almost equal distribution of
+samples. Ultimately, the audio-visual model delivers an overall performance
+increase of 8.57% from the audio baseline and 10.30% from the video baseline.
 
