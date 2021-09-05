@@ -32,3 +32,19 @@ Taking inspiration from the inter-human affective communication, an audio-visual
 
 ## Results
 
+Emotion Class | Audio | Pixelvalues | Landmarks
+------------ | ------------- | ------------- | -------------
+Angry | 43.75% | **49.23%** | 46.88%
+Happy | 53.42% | **65.44%** | 64.06%
+Neutral | 38.06% | **43.90%** | 32.28%
+Sad | **50.00%** | 19.72% | 27.78%
+
+Emotion Class | Audio | Pixelvalues | Landmarks | Audio-Visual
+------------ | ------------- | ------------- | ------------- | -------------
+Angry | 43.75% | 49.23% | 46.88% | **56.92%**
+Happy | 53.42% | 65.44% | 64.06% | **69.59%**
+Neutral | 38.06% | **43.90%** | 32.28% | 38.81%
+Sad | 50.00% | 19.72% | 27.78% | **54.17%**
+
+
+
