@@ -13,7 +13,22 @@ Taking inspiration from the inter-human affective communication, an audio-visual
 ## [1.1 Emotion Recognition from Speech](https://github.com/vollenia/emotion_recognition_from_speech)
 * Features: Mel log filter banks extracted via the Kaldi extension for torchaudio
 * Neural Network: CNN style architecture adapted to time continuous data
-* Training/evaluation:  6-fold cross validation approach
+* Training/evaluation: 6-fold cross validation approach
 
-<img src="https://github.com/vollenia/emotion_recognition_from_speech/blob/main/images/audio_confusion_matrix_label.jpg" width="60%">
+## [1.2 Emotion Recognition from Face Detections](https://github.com/vollenia/emotion_recognition_from_face_detections)
+* Features: Selection of greyscaled face detections extracted via Dlib's HOG frontal face detector
+* Neural Network: CNN architecture with selected frames passed in as channels 
+* Training/evaluation: 6-fold cross validation approach
+
+## [1.3 Emotion Recognition from Facial Landmarks](https://github.com/vollenia/emotion_recognition_from_facial_landmarks)
+* Features: Normalized distances computed from facial landmark coordinates extracted via Dlib's shape predictor
+* Neural Network: FCNN architecture 
+* Training/evaluation: 6-fold cross validation approach
+
+## [1.4 Emotion Recognition from Audio-Visual Features](https://github.com/vollenia/emotion_recognition_audio-visual)
+* Features: Mel log filterbanks + grayscaled face detections
+* Neural Network: Model-level fusion of architectures from 1.1 and 1.2 
+* Training/evaluation: 6-fold cross validation approach
+
+## Results
 
