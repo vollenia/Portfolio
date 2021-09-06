@@ -30,25 +30,18 @@ Taking inspiration from the inter-human affective communication, an audio-visual
 * Neural Network: Model-level fusion of architectures from 1.1 and 1.2 
 * Training/evaluation: 6-fold cross validation approach
 
-## Results
+## Results Overview
 
-Emotion Class | Audio | Pixelvalues | Landmarks
------------- | ------------- | ------------- | -------------
-Angry | 43.75% | **49.23%** | 46.88%
-Happy | 53.42% | **65.44%** | 64.06%
-Neutral | 38.06% | **43.90%** | 32.28%
-Sad | **50.00%** | 19.72% | 27.78%
-
-Emotion Class | Audio | Pixelvalues | Landmarks | Audio-Visual
+Emotion Class | Speech | Face Detections | Facial Landmarks | Audio-Visual (Speech + Face Detections)
 ------------ | ------------- | ------------- | ------------- | -------------
 Angry | 43.75% | 49.23% | 46.88% | **56.92%**
 Happy | 53.42% | 65.44% | 64.06% | **69.59%**
 Neutral | 38.06% | **43.90%** | 32.28% | 38.81%
 Sad | 50.00% | 19.72% | 27.78% | **54.17%**
 
-While this margin was 13.93% in
-the video baseline, it increased to 16.08% in the audio-visual model, resulting
-in all classes falsely classied as neutral having an almost equal distribution of
-samples. Ultimately, the audio-visual model delivers an overall performance
-increase of 8.57% from the audio baseline and 10.30% from the video baseline.
+When comparing the audio-visual model's performance against the two baselines, the model delivers signifcantly increased performance for three of the
+four classes. The only exception is _neutral_ where the best results can be found in the video baseline model. However, despite
+the decreased performance in regard to _neutral_, it should be noted that the margin between the correct classifcations and the class with the highest
+percentage of false classifcations increased. This resulted in all classes falsely classifed as _neutral_ having an almost equal distribution of samples and the number of correct classifications being almost twice as high.
+Ultimately, the audio-visual model delivers an overall performance increase of 8.57% over the audio baseline and 10.30% over the video baseline.
 
