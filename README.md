@@ -1,5 +1,5 @@
 # Portfolio
-Portfolio of my projects
+This is a portfolio of my most interesting projects. The idea behind this is to put an overview of all projects in one place while simultaneously providing additional context.
 
 # Project 1: Emotion Recognition
 Due to technological advances of the past decades, it has become common to communicate with robots in order to receive information.
