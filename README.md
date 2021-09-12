@@ -32,7 +32,7 @@ Taking inspiration from the inter-human affective communication, an audio-visual
 
 ## Results Overview
 
-Emotion Class | Speech | Face Detections | Facial Landmarks | Audio-Visual (Speech + Face Detections)
+Emotion Class | Speech | Face Detections | Facial Landmarks | Audio-Visual  (Speech + Face Detections)
 ------------ | ------------- | ------------- | ------------- | -------------
 Angry | 43.75% | 49.23% | 46.88% | **56.92%**
 Happy | 53.42% | 65.44% | 64.06% | **69.59%**
