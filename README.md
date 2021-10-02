@@ -47,3 +47,11 @@ Ultimately, the audio-visual model delivers an overall performance increase of 8
 
 # [Project 2: Text Generation](https://github.com/vollenia/text_generation)
 The goal of this project is to train a language model on a random text and generate new text by utilizing this language model.
+
+Main steps:
+* Splitting the training data (text) into individual tokens (words / punktuation marks)
+* Creating n-gram representations (words and their context of n-1 preceding words)
+* Storing the n-gram representations in form of a language model
+* Generating new token sequences with the language model
+* Converting token sequences into text
+
