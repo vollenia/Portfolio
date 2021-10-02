@@ -45,3 +45,5 @@ the decreased performance in regard to _neutral_, it should be noted that the ma
 percentage of false classifcations increased. This resulted in all classes falsely classifed as _neutral_ having an almost equal distribution of samples and the number of correct classifications being almost twice as high.
 Ultimately, the audio-visual model delivers an overall performance increase of 8.57% over the audio baseline and 10.30% over the video baseline.
 
+# [Project 2: Text Generation](https://github.com/vollenia/text_generation)
+The goal of this project is to train a language model on a random text and generate new text by utilizing this language model.
