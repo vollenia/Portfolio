@@ -58,3 +58,6 @@ Main steps:
 Some generation results when trained on a random text:
 * "Dear Celia, but I will bring you word, good Mistress Anne, yourself must break my oath, to hide the sun dance. Hark, in me what strange, that wouldst thou have me?"
 * "I am heart-burned an hour, and, for want of rain, I am, necessity commands me name myself attach thee for a hot January."
+
+# [Project 3: Web Scraping - CNN News](https://github.com/vollenia/web_scraper-CNN_news)
+Description follows...
