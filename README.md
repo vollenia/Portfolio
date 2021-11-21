@@ -39,6 +39,13 @@ Happy | 53.42% | 65.44% | 64.06% | **69.59%**
 Neutral | 38.06% | **43.90%** | 32.28% | 38.81%
 Sad | 50.00% | 19.72% | 27.78% | **54.17%**
 
+A confusion matrix for the audio-visual model looks like the following:
+<img src="https://github.com/vollenia/emotion_recognition_audio-visual/blob/main/images/mm_confusion_matrix_label.jpg" width="60%">
+
+<p align="center">
+  <img src="https://github.com/vollenia/emotion_recognition_audio-visual/blob/main/images/mm_confusion_matrix_label.jpg" width="60%" />
+</p>
+
 When comparing the audio-visual model's performance against the two baselines, the model delivers signifcantly increased performance for three of the
 four classes. The only exception is _neutral_ where the best results can be found in the video baseline model. However, despite
 the decreased performance in regard to _neutral_, it should be noted that the margin between the correct classifcations and the class with the highest
