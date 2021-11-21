@@ -65,8 +65,9 @@ Some generation results when trained on a random text:
 # Project 3: CNN Website
 
 ## [3.1: Web Scraping - CNN Website](https://github.com/vollenia/web_scraper-CNN_news)
-The goal of this project is to collect data from the CNN (Cable News Network) website for a time specific window, store it in a database which can then be searched for specific contents. Provided a user input of a year and month the steps can be summarized as follows:
+The goal of this project is to automatically collect data from the CNN (Cable News Network) website for a time specific window and store it in a database which can then be searched for specific contents.
 
+Main Steps:
 * Going to the CNN website
 * Navigating the website structure to identify webpages for all articles within the specified time window
 * Collecting _publishing date_, _title of the article_, _url_, _name of the author_, _short summary of the article_ and the _articel itself_ from the relevant webpages by parsing their HTML structure
