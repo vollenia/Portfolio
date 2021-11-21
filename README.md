@@ -49,7 +49,7 @@ four classes. The only exception is _neutral_ where the best results can be foun
 Ultimately, the audio-visual model delivers an overall performance increase of **8.57%** over the audio baseline and **10.30%** over the video baseline.
 
 # [Project 2: Text Generation](https://github.com/vollenia/text_generation)
-The goal of this project is to train a language model on a random text and generate new text by utilizing this language model.
+The goal of this project is to automatically train a language model given a random text and generate new text by utilizing this language model.
 
 Main steps:
 * Splitting training data (text) into individual tokens (words / punctuation marks)
