@@ -72,4 +72,4 @@ Main Steps:
 * Navigating the website structure to identify webpages for all articles within the specified time window
 * Collecting _publishing date_, _title of the article_, _url_, _name of the author_, _short summary of the article_ and the _articel itself_ from the relevant webpages by parsing their HTML structure
 * Preparing data to follow specific constraints and storing it as a database in XML format with the information enclosed within the corresponding tags
-* Accessing data within the XML databse by tags/keyword pairs in order to enable efficient search for articles covering specific contents
+* Accessing data within the XML databse by tag-keyword pairs in order to enable efficient search for articles covering specific contents
