@@ -62,5 +62,13 @@ Some generation results when trained on a random text:
 * "Dear Celia, but I will bring you word, good Mistress Anne, yourself must break my oath, to hide the sun dance. Hark, in me what strange, that wouldst thou have me?"
 * "I am heart-burned an hour, and, for want of rain, I am, necessity commands me name myself attach thee for a hot January."
 
-# [Project 3: Web Scraping - CNN Website](https://github.com/vollenia/web_scraper-CNN_news)
-Description follows...
+# Project 3: CNN Website
+
+## [3.1: Web Scraping - CNN Website](https://github.com/vollenia/web_scraper-CNN_news)
+The goal of this project is to collect data from the CNN (Cable News Network) website for a time specific window, store it in a database which can then be searched for specific contents. Provided a user input of a year and month the steps can be summarized as follows:
+
+* Going to the CNN website
+* Navigating the website structure to identify webpages for all articles within the specified time window
+* Collecting _publishing date_, _title of the article_, _url_, _name of the author_, _short summary of the article_ and the _articel itself_ from the relevant webpages by parsing their HTML structure
+* Preparing data to follow specific constraints and storing it as a database in XML format with the information enclosed within the corresponding tags
+* Accessing data within the XML databse by tags/keyword pairs in order to enable efficient search for articles covering specific contents
