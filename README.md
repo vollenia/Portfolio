@@ -1,7 +1,19 @@
 # Portfolio
 This is a portfolio of my most interesting projects. The motivation behind this is to put an overview of all projects in one place while simultaneously providing additional context.
 
-# Project 1: Emotion Recognition
+# Project 1: Data Science - CNN Website
+
+## [1.1 Web Scraping - CNN Website](https://github.com/vollenia/web_scraper-CNN_news)
+The goal of this project is to automatically collect data from the CNN (Cable News Network) website for a specific time window and store it in a database which can then be efficiently searched for particular contents.
+
+Main Steps:
+* Going to the CNN website
+* Navigating the website structure to identify webpages for all articles within the specified time window
+* Collecting _publishing date_, _title of the article_, _url_, _name of the author_, _short summary of the article_ and the _articel itself_ from the relevant webpages by parsing their HTML structure
+* Preparing data to follow specific constraints and storing it as a database in XML format with the information enclosed within the corresponding tags
+* Accessing data within the XML databse by tag-keyword pairs in order to enable efficient search for articles covering specific contents
+
+# Project 2: Deep Learning - Emotion Recognition
 Due to technological advances of the past decades, it has become common to communicate with robots in order to receive information.
 However, humans are still aware of talking to a machine and not to another human being. The main weakness of such machines that prevents a seamless interaction, besides the processing errors in regard to the specifc task, is the lack of emotional communication.
 Since humans convey their emotional state with seemingly every word they say, it becomes immediately noticeable when this layer of communication is missing in a conversation. Therefore, emotion recognition, as the frst step, can be considered the key for affective communication in the human-machine interaction.
@@ -10,24 +22,24 @@ In inter-human affective communication the acoustic and visual modalities play a
 
 Taking inspiration from the inter-human affective communication, an audio-visual model for emotion recognition is created in this project.
 
-## [1.1 Emotion Recognition from Speech](https://github.com/vollenia/emotion_recognition_from_speech)
+## [2.1 Emotion Recognition from Speech](https://github.com/vollenia/emotion_recognition_from_speech)
 * Features: Mel log filter banks extracted via the Kaldi extension for torchaudio
 * Neural Network: CNN style architecture adapted to time continuous data
 * Training/evaluation: 6-fold cross validation approach
 
-## [1.2 Emotion Recognition from Face Detections](https://github.com/vollenia/emotion_recognition_from_face_detections)
+## [2.2 Emotion Recognition from Face Detections](https://github.com/vollenia/emotion_recognition_from_face_detections)
 * Features: Selection of greyscaled face detections extracted via Dlib's HOG frontal face detector
 * Neural Network: CNN architecture with selected frames passed in as channels 
 * Training/evaluation: 6-fold cross validation approach
 
-## [1.3 Emotion Recognition from Facial Landmarks](https://github.com/vollenia/emotion_recognition_from_facial_landmarks)
+## [2.3 Emotion Recognition from Facial Landmarks](https://github.com/vollenia/emotion_recognition_from_facial_landmarks)
 * Features: Normalized distances computed from facial landmark coordinates extracted via Dlib's shape predictor
 * Neural Network: FCNN architecture 
 * Training/evaluation: 6-fold cross validation approach
 
-## [1.4 Emotion Recognition from Audio-Visual Features](https://github.com/vollenia/emotion_recognition_audio-visual)
+## [2.4 Emotion Recognition from Audio-Visual Features](https://github.com/vollenia/emotion_recognition_audio-visual)
 * Features: Mel log filterbanks + grayscaled face detections
-* Neural Network: Model-level fusion of architectures from 1.1 and 1.2 
+* Neural Network: Model-level fusion of architectures from [1.1](https://github.com/vollenia/emotion_recognition_from_speech) and [1.2](https://github.com/vollenia/emotion_recognition_from_face_detections) 
 * Training/evaluation: 6-fold cross validation approach
 
 ## Results Overview
@@ -48,7 +60,7 @@ four classes. The only exception is _neutral_ where the best results can be foun
 
 Ultimately, the audio-visual model delivers an overall performance increase of **8.57%** over the audio baseline and **10.30%** over the video baseline.
 
-# [Project 2: Text Generation](https://github.com/vollenia/text_generation)
+# [Project 3: Natural Language Processing - Text Generation](https://github.com/vollenia/text_generation)
 The goal of this project is to automatically train a language model given a random text and generate new text by utilizing this language model.
 
 Main steps:
@@ -61,15 +73,3 @@ Main steps:
 Some generation results when trained on a random text:
 * "Dear Celia, but I will bring you word, good Mistress Anne, yourself must break my oath, to hide the sun dance. Hark, in me what strange, that wouldst thou have me?"
 * "I am heart-burned an hour, and, for want of rain, I am, necessity commands me name myself attach thee for a hot January."
-
-# Project 3: CNN Website
-
-## [3.1 Web Scraping - CNN Website](https://github.com/vollenia/web_scraper-CNN_news)
-The goal of this project is to automatically collect data from the CNN (Cable News Network) website for a specific time window and store it in a database which can then be efficiently searched for particular contents.
-
-Main Steps:
-* Going to the CNN website
-* Navigating the website structure to identify webpages for all articles within the specified time window
-* Collecting _publishing date_, _title of the article_, _url_, _name of the author_, _short summary of the article_ and the _articel itself_ from the relevant webpages by parsing their HTML structure
-* Preparing data to follow specific constraints and storing it as a database in XML format with the information enclosed within the corresponding tags
-* Accessing data within the XML databse by tag-keyword pairs in order to enable efficient search for articles covering specific contents
