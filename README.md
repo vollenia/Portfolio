@@ -3,7 +3,7 @@ This is a portfolio of my most interesting projects. The motivation behind this 
 
 # Project 1: Data Science - Cable News Network (CNN)
 
-## [1.1 Scraping the Website (Collencting/Pre-Processing/Storing + Accessing)](https://github.com/vollenia/web_scraper-CNN_news)
+## [1.1 Scraping the Website (Collecting/Pre-Processing/Storing + Accessing)](https://github.com/vollenia/web_scraper-CNN_news)
 The goal of this project is to automatically collect data from the [CNN website](https://edition.cnn.com/) for a specific time window and store it in a database which can then be efficiently searched for particular contents.
 
 Main Steps:
