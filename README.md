@@ -1,10 +1,10 @@
 # Portfolio
 This is a portfolio of my most interesting projects. The motivation behind this is to put an overview of all projects in one place while simultaneously providing additional context.
 
-# Project 1: Data Science - CNN Website
+# Project 1: Data Science - Cable News Network (CNN)
 
-## [1.1 Web Scraping - CNN Website](https://github.com/vollenia/web_scraper-CNN_news)
-The goal of this project is to automatically collect data from the CNN (Cable News Network) website for a specific time window and store it in a database which can then be efficiently searched for particular contents.
+## [1.1 Scraping the Website (Collencting/Pre-Processing/Storing + Accessing)](https://github.com/vollenia/web_scraper-CNN_news)
+The goal of this project is to automatically collect data from the [CNN website](https://edition.cnn.com/) for a specific time window and store it in a database which can then be efficiently searched for particular contents.
 
 Main Steps:
 * Going to the CNN website
@@ -12,6 +12,19 @@ Main Steps:
 * Collecting _publishing date_, _title of the article_, _url_, _name of the author_, _short summary of the article_ and the _articel itself_ from the relevant webpages by parsing their HTML structure
 * Preparing data to follow specific constraints and storing it as a database in XML format with the information enclosed within the corresponding tags
 * Accessing data within the XML databse by tag-keyword pairs in order to enable efficient search for articles covering specific contents
+
+## [1.2 Analyzing Publications for 2021 (Post-Processing/Analyzing/Visualizing)](https://github.com/vollenia/data_analysis_CNN_news)
+The goal of this project is to analyze the data collected in [1.1](https://github.com/vollenia/web_scraper-CNN_news) for the year of 2021. The focus of this analysis lies not on the contents of the articles themselves but on the meta information of these articles. It is, however, possible and of interest to extend this analysis onto the contents in the future.
+
+<p align="center">
+  <img src="https://github.com/vollenia/data_analysis_CNN_news/blob/main/images/pub_year.png" width="100%" />
+</p>
+
+Covered aspects:
+* Publications throughout the year (seen above)
+* The year viewed as a workweek
+* Distribution of authorship 
+* Close-up on individual months
 
 # Project 2: Deep Learning - Emotion Recognition
 Due to technological advances of the past decades, it has become common to communicate with robots in order to receive information.
