@@ -2,6 +2,11 @@
 This is a portfolio of my most interesting projects. The motivation behind this is to put an overview of all projects in one place while simultaneously providing additional context.
 
 # Project 1: Data Science - Cable News Network (CNN)
+In the digital world of today, data is produced at an ever-increasing pace. There are many available datasets already to perform analysis on and using a pre-made dataset eliminates the need of identifying data sources and collecting the data oneself. This is, without a doubt, a benefit in the majority of cases but can also be a constraint. It becomes more convenient to lean towards a pre-made dataset then going the distance and collecting one’s own data, with all the extra steps that are involved. There seems to be no need to re-analyze "popular" datasets for the n<sup>th</sup> time, while the amounts of freely accessible data and therefore, the number of interesting insights to gather, seem countless. The question is, _what do you want to know_?
+
+In the case of this project, it was of interest to find data that is real, recent and has an impact on our everyday life. Many very different things may come to mind, depending on the person. However, for the majority of us, our lives don't take place in isolation and we are therefore, impacted by the events surrounding us. For this reason, it is of interest to inspect the medium that informs us about the events happening all around us, _the news_.
+Cable News Network (CNN) has been selected as the source of this type of data.
+
 
 ## [1.1 Scraping the Website (Collecting/Pre-Processing/Storing + Accessing)](https://github.com/vollenia/web_scraper-CNN_news)
 The goal of this project is to automatically collect data from the [CNN website](https://edition.cnn.com/) for a specific time window and store it in a database which can then be efficiently searched for particular contents.
