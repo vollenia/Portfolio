@@ -89,5 +89,5 @@ Main steps:
 * Converting token sequences into text
 
 Some generation results when trained on a random text:
-* "Dear Celia, but I will bring you word, good Mistress Anne, yourself must break my oath, to hide the sun dance. Hark, in me what strange, that wouldst thou have me?"
-* "I am heart-burned an hour, and, for want of rain, I am, necessity commands me name myself attach thee for a hot January."
+* _"Dear Celia, but I will bring you word, good Mistress Anne, yourself must break my oath, to hide the sun dance. Hark, in me what strange, that wouldst thou have me?"_
+* _"I am heart-burned an hour, and, for want of rain, I am, necessity commands me name myself attach thee for a hot January."_
