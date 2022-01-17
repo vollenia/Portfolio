@@ -22,10 +22,6 @@ Main Steps:
 The goal of this project is to analyze the data collected in [1.1](https://github.com/vollenia/web_scraper-CNN_news) for the year of 2021. The focus of this analysis lies not on the contents of the articles themselves but on the meta information of these articles. It is, however, possible and of interest to extend this analysis onto the contents in the future.
 
 <p align="center">
-  <img src="https://github.com/vollenia/data_analysis_CNN_news/blob/main/images/pub_year.png" width="100%" />
-</p>
-
-<p align="center">
   <img src="https://raw.githubusercontent.com/vollenia/data_analysis_CNN_news/main/images/pub_year.png" width="100%" />
 </p>
 
@@ -77,7 +73,7 @@ When comparing the audio-visual model's performance against the baselines, the m
 four classes. The only exception is _neutral_ where the best results can be found in the video baseline model. However, despite the decreased performance in regard to _neutral_, it should be noted that the margin between the correct classifcations and the class with the highest percentage of false classifcations increased. This resulted in all classes falsely classifed as _neutral_ having an almost equal distribution of samples and the number of correct classifications being almost twice as high, as can be seen in the confusion matrix for the audio-visual model:
 
 <p align="center">
-  <img src="https://github.com/vollenia/emotion_recognition_audio-visual/blob/main/images/mm_confusion_matrix_label.jpg" width="70%" />
+  <img src="https://raw.githubusercontent.com/vollenia/emotion_recognition_audio-visual/main/images/mm_confusion_matrix_label.jpg" width="70%" />
 </p>
 
 Ultimately, the audio-visual model delivers an overall performance increase of **8.57%** over the audio baseline and **10.30%** over the video baseline.
