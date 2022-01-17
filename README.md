@@ -25,6 +25,10 @@ The goal of this project is to analyze the data collected in [1.1](https://githu
   <img src="https://github.com/vollenia/data_analysis_CNN_news/blob/main/images/pub_year.png" width="100%" />
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vollenia/data_analysis_CNN_news/main/images/pub_year.png" width="100%" />
+</p>
+
 Covered aspects:
 * Publications throughout the year (seen above)
 * The year viewed as a workweek
