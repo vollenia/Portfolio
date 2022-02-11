@@ -1,3 +1,4 @@
+
 # Project 1: Data Science<br/>_- Cable News Network (CNN) -_
 In the digital world of today, data is produced at an ever-increasing pace. There are many available datasets already to perform analysis on and using a pre-made dataset eliminates the need of identifying data sources and collecting the data oneself. This is, without a doubt, a benefit in the majority of cases but can also be a constraint. It becomes more convenient to lean towards a pre-made dataset then going the distance and collecting one’s own data, with all the extra steps that are involved. There seems to be no need to re-analyze "popular" datasets for the n<sup>th</sup> time, while the amounts of freely accessible data and therefore, the number of interesting insights to gather, seem countless. The question is, _what do you want to know_?
 
