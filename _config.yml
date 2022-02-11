@@ -1,3 +1,5 @@
 title: Portfolio
 description: Provides a selection of topics that I’m passionate about and gives an overview of my GitHub repository.
 theme: jekyll-theme-cayman
+github:
+  is_project_page: false
