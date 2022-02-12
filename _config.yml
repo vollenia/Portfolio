@@ -2,7 +2,7 @@ title: Portfolio of my Projects
 description: A selection of topics that I’m passionate about.
 theme: jekyll-theme-cayman
 github:
-  is_project_page: false
+  is_project_page: true
   ref_to_github: true
 navigation:
   name_over_title: true
