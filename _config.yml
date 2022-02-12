@@ -1,6 +1,6 @@
 name: Portfolio of my Projects
-title: Portfolio of my Projects
-description: A selection of topics that I’m passionate about.
+title: null
+description: A selection of topics that I’m passionate about.!
 github:
   is_project_page: false
   ref_to_github: true
