@@ -1,7 +1,4 @@
----
----
-/* @import "{{ site.theme }}"; */
-@import 'jekyll-theme-cayman';
+@import "{{ site.theme }}";
 .page-header {
   color: #FFFFFF;
   text-align: center;
