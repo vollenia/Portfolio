@@ -1,3 +1,5 @@
+---
+---
 title: Portfolio of my Projects
 description: A selection of topics that I’m passionate about.
 theme: jekyll-theme-cayman
@@ -6,5 +8,3 @@ github:
   ref_to_github: true
 navigation:
   name_over_title: true
-plugins:
-- jekyll-remote-theme
