@@ -13,7 +13,7 @@ Main Steps:
 * Navigating the website structure to identify webpages for all articles within the specified time window
 * Collecting _publishing date_, _title of the article_, _url_, _name of the author_, _short summary of the article_ and the _articel itself_ from the relevant webpages by parsing their HTML structure
 * Preparing data to follow specific constraints and storing it as a database in XML format with the information enclosed within the corresponding tags
-* Accessing data within the XML databse by tag-keyword pairs in order to enable efficient search for articles covering specific contents
+* Accessing data within the XML database by tag-keyword pairs in order to enable efficient search for articles covering specific contents
 
 ## [1.2 Analyzing Publications for 2021<br/>(Post-Processing/Analyzing/Visualizing)](https://github.com/vollenia/data_analysis_CNN_news)
 The goal of this project is to analyze the data collected in [1.1](https://github.com/vollenia/web_scraper-CNN_news) for the year of 2021. The focus of this analysis lies not on the contents of the articles themselves but on the meta information of these articles. It is, however, possible and of interest to extend this analysis onto the contents in the future.
