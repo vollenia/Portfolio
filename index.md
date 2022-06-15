@@ -19,7 +19,7 @@ Main Steps:
 The goal of this project is to analyze the data collected in [1.1](https://github.com/vollenia/web_scraper-CNN_news) for the year of 2021. The focus of this analysis lies not on the contents of the articles themselves but on the meta information of these articles. It is, however, possible and of interest to extend this analysis onto the contents in the future.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vollenia/data_analysis_CNN_news/main/images/pub_year.png" width="98%" />
+  <img src="https://raw.githubusercontent.com/vollenia/data_analysis_CNN_news/main/images/pub_year.png" width="100%" />
 </p>
 
 Covered aspects:
@@ -32,9 +32,7 @@ Covered aspects:
 
 The goal of this project is to analyze the data collected in [1.1](https://github.com/vollenia/web_scraper-CNN_news) for the year of 20211. While the analysis performed in [1.2](https://github.com/vollenia/data_analysis_CNN_news) delivered plots that could only be presented as a static image, this project is aimed at creating interactive plots and bundling them together into a dashboard that can be viewed and interacted with in the browser.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/vollenia/interactive_dashboard_CNN_news/main/media/pub_year.gif" width="98%" />
-</p>
+https://user-images.githubusercontent.com/83287775/173880951-1129555a-c055-46a2-b1f9-69679810c9f9.mov
 
 Covered aspects:
 * Publications throughout the year / months
@@ -42,17 +40,13 @@ Covered aspects:
 * The year viewed as a workweek
 * Density of publications for individual months contrasted against the whole year
 
-The dashboard consists of two main pages where the first page displays the Year view and the second the Months view with their corresponding plots. The user can switch freely between the two pages using the widget located under Settings in the sidebar. 
+The dashboard consists of two main pages where the first page displays the _Year_ view and the second the _Months_ view with their corresponding plots. The user can switch freely between the two pages using the widget located under _Settings_ in the sidebar. 
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/vollenia/interactive_dashboard_CNN_news/main/media/dash_main.gif" width="98%"/>
-</p>
+https://user-images.githubusercontent.com/83287775/173898878-79f9a429-39ac-427e-8e5e-9eb20f4e13b5.mov
 
-While the Year view consists of three plots, the Months view allows for displaying the same three plots for each of the individual months. The months can be navigated through the widget located at the top of the Months page.
+While the _Year_ view consists of three plots, the _Months_ view allows for displaying the same three plots for each of the individual months. The months can be navigated through the widget located at the top of the Months page.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/vollenia/interactive_dashboard_CNN_news/main/media/dash_months.gif" width="98%"/>
-</p>
+https://user-images.githubusercontent.com/83287775/173898977-9c4b8a90-f4d0-4832-8cb5-c37f61794500.mov
 
 # Project 2: Deep Learning<br/>_- Emotion Recognition -_
 Due to technological advances of the past decades, it has become common to communicate with robots in order to receive information.
