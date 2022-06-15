@@ -43,11 +43,13 @@ Covered aspects:
 
 The dashboard consists of two main pages where the first page displays the _Year_ view and the second the _Months_ view with their corresponding plots. The user can switch freely between the two pages using the widget located under _Settings_ in the sidebar. 
 
-https://user-images.githubusercontent.com/83287775/173898878-79f9a429-39ac-427e-8e5e-9eb20f4e13b5.mov
+<video src="https://user-images.githubusercontent.com/83287775/173898878-79f9a429-39ac-427e-8e5e-9eb20f4e13b5.mov" controls="controls" width="100%">
+</video>
 
 While the _Year_ view consists of three plots, the _Months_ view allows for displaying the same three plots for each of the individual months. The months can be navigated through the widget located at the top of the Months page.
 
-https://user-images.githubusercontent.com/83287775/173898977-9c4b8a90-f4d0-4832-8cb5-c37f61794500.mov
+<video src="https://user-images.githubusercontent.com/83287775/173898977-9c4b8a90-f4d0-4832-8cb5-c37f61794500.mov" controls="controls" width="100%">
+</video>
 
 # Project 2: Deep Learning<br/>_- Emotion Recognition -_
 Due to technological advances of the past decades, it has become common to communicate with robots in order to receive information.
