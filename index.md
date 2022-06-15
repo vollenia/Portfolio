@@ -45,13 +45,13 @@ Covered aspects:
 The dashboard consists of two main pages where the first page displays the Year view and the second the Months view with their corresponding plots. The user can switch freely between the two pages using the widget located under Settings in the sidebar. 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vollenia/interactive_dashboard_CNN_news/main/media/dash_main.gif" width="75%" />
+  <img src="https://raw.githubusercontent.com/vollenia/interactive_dashboard_CNN_news/main/media/dash_main.gif" width="90%" />
 </p>
 
 While the Year view consists of three plots, the Months view allows for displaying the same three plots for each of the individual months. The months can be navigated through the widget located at the top of the Months page.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vollenia/interactive_dashboard_CNN_news/main/media/dash_months.gif" width="75%" />
+  <img src="https://raw.githubusercontent.com/vollenia/interactive_dashboard_CNN_news/main/media/dash_months.gif" width="90%" />
 </p>
 
 # Project 2: Deep Learning<br/>_- Emotion Recognition -_
