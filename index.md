@@ -19,7 +19,7 @@ Main Steps:
 The goal of this project is to analyze the data collected in [1.1](https://github.com/vollenia/web_scraper-CNN_news) for the year of 2021. The focus of this analysis lies not on the contents of the articles themselves but on the meta information of these articles. It is, however, possible and of interest to extend this analysis onto the contents in the future.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vollenia/data_analysis_CNN_news/main/images/pub_year.png" width="100%" />
+  <img src="https://raw.githubusercontent.com/vollenia/data_analysis_CNN_news/main/images/pub_year.png" controls="controls" width="100%" />
 </p>
 
 Covered aspects:
