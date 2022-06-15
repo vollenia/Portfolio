@@ -31,6 +31,16 @@ Covered aspects:
 * Distribution of authorship 
 * Close-up on individual months
 
+## [1.3 Creating an Interactive Dashboard<br/>(Post-Processing/Analyzing/Visualizing + Enabeling Interactivity)](https://github.com/vollenia/interactive_dashboard_CNN_news)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vollenia/interactive_dashboard_CNN_news/main/media/pub_year.gif" width="100%" />
+</p>
+
+Main             |  Months
+:-------------------------:|:-------------------------:
+<img src="[images/audio_confusion_matrix_activation.jpg](https://raw.githubusercontent.com/vollenia/interactive_dashboard_CNN_news/main/media/dash_main.gif)" width="100%">  |  <img src="[images/audio_confusion_matrix_valence.jpg](https://raw.githubusercontent.com/vollenia/interactive_dashboard_CNN_news/main/media/dash_months.gif)" width="100%">
+
 # Project 2: Deep Learning<br/>_- Emotion Recognition -_
 Due to technological advances of the past decades, it has become common to communicate with robots in order to receive information.
 However, humans are still aware of talking to a machine and not to another human being. The main weakness of such machines that prevents a seamless interaction, besides the processing errors in regard to the specifc task, is the lack of emotional communication.
