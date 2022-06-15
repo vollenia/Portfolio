@@ -28,6 +28,26 @@ Covered aspects:
 * Distribution of authorship 
 * Close-up on individual months
 
+## [1.3 Creating an Interactive Dashboard<br/>(Post-Processing/Analyzing/Visualizing + Enabeling Interactivity)](https://github.com/vollenia/interactive_dashboard_CNN_news)
+
+The goal of this project is to analyze the data collected in [1.1](https://github.com/vollenia/web_scraper-CNN_news) for the year of 20211. While the analysis performed in [1.2](https://github.com/vollenia/data_analysis_CNN_news) delivered plots that could only be presented as a static image, this project is aimed at creating interactive plots and bundling them together into a dashboard that can be viewed and interacted with in the browser.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vollenia/interactive_dashboard_CNN_news/main/media/pub_year.gif" width="100%" />
+</p>
+
+Covered aspects:
+* Publications throughout the year / months
+* Distribution of authorship for the year / months
+* The year viewed as a workweek
+* Density of publications for individual months contrasted against the whole year
+
+The dashboard consists of two main pages where the first page displays the Year view and the second the Months view with their corresponding plots. The user can switch freely between the two pages using the widget located under Settings in the sidebar. While the Year view consists of three plots, the Months view allows for displaying the same three plots for each of the individual months. The months can be navigated through the widget located at the top of the Months page.
+
+Year / Months             |  Individual Months
+:-------------------------:|:-------------------------:
+<img src="https://raw.githubusercontent.com/vollenia/interactive_dashboard_CNN_news/main/media/dash_main.gif" width="100%">  |  <img src="https://raw.githubusercontent.com/vollenia/interactive_dashboard_CNN_news/main/media/dash_months.gif" width="100%">
+
 # Project 2: Deep Learning<br/>_- Emotion Recognition -_
 Due to technological advances of the past decades, it has become common to communicate with robots in order to receive information.
 However, humans are still aware of talking to a machine and not to another human being. The main weakness of such machines that prevents a seamless interaction, besides the processing errors in regard to the specifc task, is the lack of emotional communication.
