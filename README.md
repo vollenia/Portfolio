@@ -22,7 +22,7 @@ Main Steps:
 The goal of this project is to analyze the data collected in [1.1](https://github.com/vollenia/web_scraper-CNN_news) for the year of 2021. The focus of this analysis lies not on the contents of the articles themselves but on the meta information of these articles. It is, however, possible and of interest to extend this analysis onto the contents in the future.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vollenia/data_analysis_CNN_news/main/images/pub_year.png" width="98%" />
+  <img src="https://raw.githubusercontent.com/vollenia/data_analysis_CNN_news/main/images/pub_year.png" width="100%" />
 </p>
 
 Covered aspects:
@@ -35,9 +35,7 @@ Covered aspects:
 
 The goal of this project is to analyze the data collected in [1.1](https://github.com/vollenia/web_scraper-CNN_news) for the year of 20211. While the analysis performed in [1.2](https://github.com/vollenia/data_analysis_CNN_news) delivered plots that could only be presented as a static image, this project is aimed at creating interactive plots and bundling them together into a dashboard that can be viewed and interacted with in the browser.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/vollenia/interactive_dashboard_CNN_news/main/media/pub_year.gif" width="98%" />
-</p>
+https://user-images.githubusercontent.com/83287775/173880951-1129555a-c055-46a2-b1f9-69679810c9f9.mov
 
 Covered aspects:
 * Publications throughout the year / months
