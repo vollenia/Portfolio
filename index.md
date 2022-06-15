@@ -32,7 +32,8 @@ Covered aspects:
 
 The goal of this project is to analyze the data collected in [1.1](https://github.com/vollenia/web_scraper-CNN_news) for the year of 20211. While the analysis performed in [1.2](https://github.com/vollenia/data_analysis_CNN_news) delivered plots that could only be presented as a static image, this project is aimed at creating interactive plots and bundling them together into a dashboard that can be viewed and interacted with in the browser.
 
-https://user-images.githubusercontent.com/83287775/173880951-1129555a-c055-46a2-b1f9-69679810c9f9.mov
+<video src="https://user-images.githubusercontent.com/83287775/173880951-1129555a-c055-46a2-b1f9-69679810c9f9.mov">
+</video>
 
 Covered aspects:
 * Publications throughout the year / months
