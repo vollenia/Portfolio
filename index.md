@@ -42,11 +42,17 @@ Covered aspects:
 * The year viewed as a workweek
 * Density of publications for individual months contrasted against the whole year
 
-The dashboard consists of two main pages where the first page displays the Year view and the second the Months view with their corresponding plots. The user can switch freely between the two pages using the widget located under Settings in the sidebar. While the Year view consists of three plots, the Months view allows for displaying the same three plots for each of the individual months. The months can be navigated through the widget located at the top of the Months page.
+The dashboard consists of two main pages where the first page displays the Year view and the second the Months view with their corresponding plots. The user can switch freely between the two pages using the widget located under Settings in the sidebar. 
 
-Year / Months             |  Individual Months
-:-------------------------:|:-------------------------:
-<img src="https://raw.githubusercontent.com/vollenia/interactive_dashboard_CNN_news/main/media/dash_main.gif" width="100%">  |  <img src="https://raw.githubusercontent.com/vollenia/interactive_dashboard_CNN_news/main/media/dash_months.gif" width="100%">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vollenia/interactive_dashboard_CNN_news/main/media/dash_main.gif" width="75%" />
+</p>
+
+While the Year view consists of three plots, the Months view allows for displaying the same three plots for each of the individual months. The months can be navigated through the widget located at the top of the Months page.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vollenia/interactive_dashboard_CNN_news/main/media/dash_months.gif" width="75%" />
+</p>
 
 # Project 2: Deep Learning<br/>_- Emotion Recognition -_
 Due to technological advances of the past decades, it has become common to communicate with robots in order to receive information.
