@@ -1,8 +1,16 @@
 # I. Data Analytics
 
-## Project 1: _Cycling Complaints from Baden-Württemberg (SWR - #besserRadfahren)_
+## Project 1: _Cycling Complaints from Baden-Württemberg<br/>(SWR - #besserRadfahren)_
 
-## [1.1 Transforming the Dataset / Analyzing Cycling Complaints from Stuttgart](https://github.com/vollenia/cycling_complaints_bw_swr)
+Events of the recent years have caused societies to re-think many aspects of their day-to-day lives. One of these acpects concers the way we commute. In Germany, it has become increasingly popular to rely on cycling for short-distance commutes. Having close family members and friends committed to this lifestyle, is cause for regular discussions about the advantages and disadvantages of being a cyclist, especially in the city. While all seem to agree on the advantages, the problems vary since not every cyclist takes the same routes. Therefore, it becomes difficult to get an objective picture of the situation that would not only be beneficial for family discussions but also for city and state officials when prioritizing changes.
+
+Fortunately, the SWR (Südwestrundfunk), a public broadcaster local to the south-western states of Germany, initiated a campaign to gather data on this topic. The campaign, fittingly titled [#besserRadfahren](https://www.swr.de/radfahren/besser-radfahren-im-suedwesten-106.html) "#betterCycling", encouraged cyclists from all around the south-west to participate and report problems they are faced with while on the road.
+
+The resulting dataset covers the states of Baden-Württemberg and Rheinland-Pfalz. However, this project focuses on Baden-Württemberg only.
+
+## [1.1 Transforming the Dataset & Analyzing Complaints from Stuttgart<br/>(Post-Processing/Analyzing/Visualizing)](https://github.com/vollenia/cycling_complaints_bw_swr)
+
+The goal of this project is to process and analyze data collected by the SWR in context of their #besserRadfahren campaign.  The pre-processing and short analysis focus on the state of Baden-Württemberg and in particular on its capital city, Stuttgart.
 
 Main Steps:
 * Transforming the [original dataset](https://www.govdata.de/web/guest/daten/-/details/besserradfahren-swr-umfrage) to extract additional information from unstructured data columns
