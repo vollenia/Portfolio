@@ -1,6 +1,8 @@
-# I. Data Analytics
+I. Data Analytics
+======
 
-## Project 2: _Cable News Network (CNN)_
+Project 2: _Cable News Network (CNN)_
+------
 In the digital world of today, data is produced at an ever-increasing pace. There are many available datasets already to perform analysis on and using a pre-made dataset eliminates the need of identifying data sources and collecting the data oneself. This is, without a doubt, a benefit in the majority of cases but can also be a constraint. It becomes more convenient to lean towards a pre-made dataset than going the distance and collecting one’s own data, with all the extra steps that are involved. There seems to be no need to re-analyze "popular" datasets for the n<sup>th</sup> time, while the amounts of freely accessible data and therefore, the number of interesting insights to gather, seem countless. The question is, _what do you want to know_?
 
 In the case of this project, it was of interest to find data that is real, recent and has an impact on our everyday life. Many very different things may come to mind, depending on the person. However, for the majority of us, our lives don't take place in isolation and we are therefore, impacted by the events surrounding us. For this reason, it is of interest to inspect the medium that informs us about the events happening all around us, _the news_.
@@ -52,7 +54,8 @@ While the _Year_ view consists of three plots, the _Months_ view allows for disp
 <video src="https://user-images.githubusercontent.com/83287775/173898977-9c4b8a90-f4d0-4832-8cb5-c37f61794500.mov" controls="controls" width="100%">
 </video>
 
-# II. Deep Learning
+II. Deep Learning
+======
 
 ## Project 1: _Emotion Recognition_
 Due to technological advances of the past decades, it has become common to communicate with robots in order to receive information.
