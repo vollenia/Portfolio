@@ -21,11 +21,11 @@ Main Steps:
 * Performing an analysis for Stuttgart
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vollenia/cycling_complaints_bw_swr/main/images/1_bw_vs_stuttgart.png" width="100%" />
+  <img src="https://raw.githubusercontent.com/vollenia/cycling_complaints_bw_swr/main/images/1_stuttgart_vs_bw.png" width="100%" />
 </p>
 
 Covered aspects:
-* Baden-Württemberg vs. Stuttgart (seen above)
+* Stuttgart vs. Baden-Württemberg (seen above)
 * Inner city districts of Stuttgart
 * Progression of complaints over time in Stuttgart 
 * Five largest cities in Baden-Württemberg
