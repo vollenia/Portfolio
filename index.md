@@ -1,11 +1,12 @@
-# Project 1: Data Analytics<br/>_- Cable News Network (CNN) -_
+# I. Data Analytics
+
+## Project 2: _Cable News Network (CNN)_
 In the digital world of today, data is produced at an ever-increasing pace. There are many available datasets already to perform analysis on and using a pre-made dataset eliminates the need of identifying data sources and collecting the data oneself. This is, without a doubt, a benefit in the majority of cases but can also be a constraint. It becomes more convenient to lean towards a pre-made dataset than going the distance and collecting one’s own data, with all the extra steps that are involved. There seems to be no need to re-analyze "popular" datasets for the n<sup>th</sup> time, while the amounts of freely accessible data and therefore, the number of interesting insights to gather, seem countless. The question is, _what do you want to know_?
 
 In the case of this project, it was of interest to find data that is real, recent and has an impact on our everyday life. Many very different things may come to mind, depending on the person. However, for the majority of us, our lives don't take place in isolation and we are therefore, impacted by the events surrounding us. For this reason, it is of interest to inspect the medium that informs us about the events happening all around us, _the news_.
 Cable News Network (CNN) has been selected as the source of this type of data.
 
-
-## [1.1 Scraping the Website<br/>(Collecting/Pre-Processing/Storing + Accessing)](https://github.com/vollenia/web_scraper-CNN_news)
+## [2.1 Scraping the Website<br/>(Collecting/Pre-Processing/Storing + Accessing)](https://github.com/vollenia/web_scraper-CNN_news)
 The goal of this project is to automatically collect data from the [CNN website](https://edition.cnn.com/) for a specific time window and store it in a database which can then be efficiently searched for particular contents.
 
 Main Steps:
@@ -15,8 +16,8 @@ Main Steps:
 * Preparing data to follow specific constraints and storing it as a database in XML format with the information enclosed within the corresponding tags
 * Accessing data within the XML database by tag-keyword pairs in order to enable efficient search for articles covering specific contents
 
-## [1.2 Analyzing Publications for 2021<br/>(Post-Processing/Analyzing/Visualizing)](https://github.com/vollenia/data_analysis_CNN_news)
-The goal of this project is to analyze the data collected in [1.1](https://github.com/vollenia/web_scraper-CNN_news) for the year of 2021. The focus of this analysis lies not on the contents of the articles themselves but on the meta information of these articles. It is, however, possible and of interest to extend this analysis onto the contents in the future.
+## [2.2 Analyzing Publications for 2021<br/>(Post-Processing/Analyzing/Visualizing)](https://github.com/vollenia/data_analysis_CNN_news)
+The goal of this project is to analyze the data collected in [2.1](https://github.com/vollenia/web_scraper-CNN_news) for the year of 2021. The focus of this analysis lies not on the contents of the articles themselves but on the meta information of these articles. It is, however, possible and of interest to extend this analysis onto the contents in the future.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/vollenia/data_analysis_CNN_news/main/images/pub_year.png" width="100%" />
@@ -28,9 +29,9 @@ Covered aspects:
 * Distribution of authorship 
 * Close-up on individual months
 
-## [1.3 Creating an Interactive Dashboard<br/>(Post-Processing/Analyzing/Visualizing + Enabeling Interactivity)](https://github.com/vollenia/interactive_dashboard_CNN_news)
+## [2.3 Creating an Interactive Dashboard<br/>(Post-Processing/Analyzing/Visualizing + Enabeling Interactivity)](https://github.com/vollenia/interactive_dashboard_CNN_news)
 
-The goal of this project is to analyze the data collected in [1.1](https://github.com/vollenia/web_scraper-CNN_news) for the year of 20211. While the analysis performed in [1.2](https://github.com/vollenia/data_analysis_CNN_news) delivered plots that could only be presented as a static image, this project is aimed at creating interactive plots and bundling them together into a dashboard that can be viewed and interacted with in the browser.
+The goal of this project is to analyze the data collected in [2.1](https://github.com/vollenia/web_scraper-CNN_news) for the year of 2021. While the analysis performed in [2.2](https://github.com/vollenia/data_analysis_CNN_news) delivered plots that could only be presented as a static image, this project is aimed at creating interactive plots and bundling them together into a python dashboard that can be viewed and interacted with in the browser.
 
 <video src="https://user-images.githubusercontent.com/83287775/173880951-1129555a-c055-46a2-b1f9-69679810c9f9.mov" controls="controls" width="100%">
 </video>
@@ -51,7 +52,9 @@ While the _Year_ view consists of three plots, the _Months_ view allows for disp
 <video src="https://user-images.githubusercontent.com/83287775/173898977-9c4b8a90-f4d0-4832-8cb5-c37f61794500.mov" controls="controls" width="100%">
 </video>
 
-# Project 2: Deep Learning<br/>_- Emotion Recognition -_
+# II. Deep Learning
+
+## Project 1: _Emotion Recognition_
 Due to technological advances of the past decades, it has become common to communicate with robots in order to receive information.
 However, humans are still aware of talking to a machine and not to another human being. The main weakness of such machines that prevents a seamless interaction, besides the processing errors in regard to the specifc task, is the lack of emotional communication.
 Since humans convey their emotional state with seemingly every word they say, it becomes immediately noticeable when this layer of communication is missing in a conversation. Therefore, emotion recognition, as the frst step, can be considered the key for affective communication in the human-machine interaction.
@@ -60,22 +63,22 @@ In inter-human affective communication the acoustic and visual modalities play a
 
 Taking inspiration from the inter-human affective communication, an audio-visual model for emotion recognition is created in this project.
 
-## [2.1 Emotion Recognition from Speech](https://github.com/vollenia/emotion_recognition_from_speech)
+## [1.1 Emotion Recognition from Speech](https://github.com/vollenia/emotion_recognition_from_speech)
 * Features: Mel log filter banks extracted via the Kaldi extension for torchaudio
 * Neural Network: CNN style architecture adapted to time continuous data
 * Training/evaluation: 6-fold cross validation approach
 
-## [2.2 Emotion Recognition from Face Detections](https://github.com/vollenia/emotion_recognition_from_face_detections)
+## [1.2 Emotion Recognition from Face Detections](https://github.com/vollenia/emotion_recognition_from_face_detections)
 * Features: Selection of greyscaled face detections extracted via Dlib's HOG frontal face detector
 * Neural Network: CNN architecture with selected frames passed in as channels 
 * Training/evaluation: 6-fold cross validation approach
 
-## [2.3 Emotion Recognition from Facial Landmarks](https://github.com/vollenia/emotion_recognition_from_facial_landmarks)
+## [1.3 Emotion Recognition from Facial Landmarks](https://github.com/vollenia/emotion_recognition_from_facial_landmarks)
 * Features: Normalized distances computed from facial landmark coordinates extracted via Dlib's shape predictor
 * Neural Network: FCNN architecture 
 * Training/evaluation: 6-fold cross validation approach
 
-## [2.4 Emotion Recognition from Audio-Visual Features](https://github.com/vollenia/emotion_recognition_audio-visual)
+## [1.4 Emotion Recognition from Audio-Visual Features](https://github.com/vollenia/emotion_recognition_audio-visual)
 * Features: Mel log filterbanks + grayscaled face detections
 * Neural Network: Model-level fusion of architectures from [1.1](https://github.com/vollenia/emotion_recognition_from_speech) and [1.2](https://github.com/vollenia/emotion_recognition_from_face_detections) 
 * Training/evaluation: 6-fold cross validation approach
@@ -98,7 +101,9 @@ four classes. The only exception is _neutral_ where the best results can be foun
 
 Ultimately, the audio-visual model delivers an overall performance increase of **8.57%** over the audio baseline and **10.30%** over the video baseline.
 
-# [Project 3: Natural Language Processing<br/>_- Text Generation -_](https://github.com/vollenia/text_generation)
+# III. Natural Language Processing
+
+## [Project 1: _Text Generation_](https://github.com/vollenia/text_generation)
 The goal of this project is to automatically train a language model given a random text and generate new text by utilizing this language model.
 
 Main steps:
