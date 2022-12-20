@@ -3,7 +3,7 @@ This is a portfolio of my most interesting projects. It provides a selection of 
 
 # I. Data Analytics
 
-## Project 1: _Cycling Complaints from Baden-Württemberg<br/>(SWR - #besserRadfahren)_
+## Project 1: _Cycling Complaints from Baden-Württemberg<br/>(R & Tableau)_
 
 Events of the recent years have led society to re-think many aspects of our day-to-day lives. One of these aspects is the way we commute. In Germany, it has become increasingly popular to rely on cycling for short-distance commutes. Having close family members and friends committed to this lifestyle, is cause for regular discussions about the advantages and disadvantages of being a cyclist, especially in the city. While all seem to agree on the advantages, the problems vary since not every cyclist takes the same routes. Therefore, it becomes difficult to get an objective picture of the situation that would not only be beneficial for family discussions but also for city and state officials when prioritizing changes.
 
@@ -16,7 +16,7 @@ The resulting dataset covers the states of Baden-Württemberg and Rheinland-Pfal
 The goal of this project is to process and analyze data collected by the SWR in context of their #besserRadfahren campaign.  The pre-processing and short analysis focus on the state of Baden-Württemberg and in particular on its capital city, Stuttgart.
 
 Main Steps:
-* Transforming the [original dataset](https://www.govdata.de/web/guest/daten/-/details/besserradfahren-swr-umfrage) to extract additional information from unstructured data columns
+* Transforming the dataset to extract additional information from unstructured data columns
 * Creating a clean dataset for Baden-Württemberg
 * Performing an analysis for Stuttgart
 
@@ -30,13 +30,15 @@ Covered aspects:
 * Progression of complaints over time in Stuttgart 
 * Five largest cities in Baden-Württemberg
 
-## Project 2: _Cable News Network (CNN)_
+## [1.2 Creating an Interactive Dashboard](https://public.tableau.com/app/profile/vollenia/viz/Radfahren_BW_2021/DashboardBW)
+
+## Project 2: _Cable News Network (CNN)<br/>(Python)_
 In the digital world of today, data is produced at an ever-increasing pace. There are many available datasets already to perform analysis on and using a pre-made dataset eliminates the need of identifying data sources and collecting the data oneself. This is, without a doubt, a benefit in the majority of cases but can also be a constraint. It becomes more convenient to lean towards a pre-made dataset than going the distance and collecting one’s own data, with all the extra steps that are involved. There seems to be no need to re-analyze "popular" datasets for the n<sup>th</sup> time, while the amounts of freely accessible data and therefore, the number of interesting insights to gather, seem countless. The question is, _what do you want to know_?
 
 In the case of this project, it was of interest to find data that is real, recent and has an impact on our everyday life. Many very different things may come to mind, depending on the person. However, for the majority of us, our lives don't take place in isolation and we are therefore, impacted by the events surrounding us. For this reason, it is of interest to inspect the medium that informs us about the events happening all around us, _the news_.
 Cable News Network (CNN) has been selected as the source of this type of data.
 
-## [2.1 Scraping the Website<br/>(Collecting/Pre-Processing/Storing + Accessing)](https://github.com/vollenia/web_scraper-CNN_news)
+## [2.1 Scraping the Website<br/>(Collecting/Pre-Processing/Storing/Accessing)](https://github.com/vollenia/web_scraper-CNN_news)
 The goal of this project is to automatically collect data from the [CNN website](https://edition.cnn.com/) for a specific time window and store it in a database which can then be efficiently searched for particular contents.
 
 Main Steps:
@@ -84,7 +86,7 @@ While the _Year_ view consists of three plots, the _Months_ view allows for disp
 
 # II. Deep Learning
 
-## Project 1: _Emotion Recognition_
+## Project 1: _Emotion Recognition<br/>(Python)_
 Due to technological advances of the past decades, it has become common to communicate with robots in order to receive information.
 However, humans are still aware of talking to a machine and not to another human being. The main weakness of such machines that prevents a seamless interaction, besides the processing errors in regard to the specifc task, is the lack of emotional communication.
 Since humans convey their emotional state with seemingly every word they say, it becomes immediately noticeable when this layer of communication is missing in a conversation. Therefore, emotion recognition, as the frst step, can be considered the key for affective communication in the human-machine interaction.
@@ -133,7 +135,7 @@ Ultimately, the audio-visual model delivers an overall performance increase of *
 
 # III. Natural Language Processing
 
-## [Project 1: _Text Generation_](https://github.com/vollenia/text_generation)
+## [Project 1: _Text Generation_<br/>(Python)](https://github.com/vollenia/text_generation)
 The goal of this project is to automatically train a language model given a random text and generate new text by utilizing this language model.
 
 Main steps:
