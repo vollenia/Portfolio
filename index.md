@@ -62,9 +62,9 @@ The dashboard is comprised of four elements. First, a map of Baden-Württemberg 
 <script type='text/javascript'>                    
   var divElement = document.getElementById('viz1671652561519');                    
   var vizElement = divElement.getElementsByTagName('object')[0];                    
-  if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1300px';vizElement.style.height='827px';} 
-  else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1300px';vizElement.style.height='827px';} 
-  else { vizElement.style.width='100%';vizElement.style.height='1127px';}                     
+  if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';} 
+  else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';} 
+  else { vizElement.style.width='100%';}                     
   var scriptElement = document.createElement('script');                    
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
   vizElement.parentNode.insertBefore(scriptElement, vizElement);                
