@@ -35,41 +35,41 @@ The goal of this project is to create an interactive dashboard using the clean d
 
 The dashboard is comprised of four elements. First, a map of Baden-Württemberg consisting of three individual layers (regions, zip codes and points of interest) that can be toggled on and off. Second, a sunburst chart that displays the distribution of main an sub-categories for the map selection. Third, a bump-chart representing the progression of the main categories in regard to their rank of importance for the map selection. Fourth, a legend that simultaneously acts as a filter for the main categories.
 
-<p align='center'>
-<div class='tableauPlaceholder' id='viz1671652561519' style='position: relative'>
-  <noscript>
-    <a href='#'>
-      <img alt='Dashboard BW '
-           src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ra&#47;Radfahren_BW_2021&#47;DashboardBW&#47;1_rss.png'
-           style='border: none' />
-    </a>
-  </noscript>
-  <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-    <param name='embed_code_version' value='3' /> 
-    <param name='site_root' value='' />
-    <param name='name' value='Radfahren_BW_2021&#47;DashboardBW' />
-    <param name='tabs' value='no' />
-    <param name='toolbar' value='yes' />
-    <param name='static_image' 
-           value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ra&#47;Radfahren_BW_2021&#47;DashboardBW&#47;1.png' /> 
-    <param name='animate_transition' value='yes' />
-    <param name='display_static_image' value='yes' />
-    <param name='display_spinner' value='yes' />
-    <param name='display_overlay' value='yes' />
-    <param name='display_count' value='yes' />
-    <param name='language' value='de-DE' />
-  </object>
-</div>                
-<script type='text/javascript'>                    
-  var divElement = document.getElementById('viz1671652561519');                    
-  var vizElement = divElement.getElementsByTagName('object')[0];                    
-  if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1300px';vizElement.style.height='827px';} 
-  else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1300px';vizElement.style.height='827px';} 
-  else { vizElement.style.width='100%';vizElement.style.height='1127px';}                     
-  var scriptElement = document.createElement('script');                    
-  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-  vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-</script>
+<p align='center' width=80%>
+  <div class='tableauPlaceholder' id='viz1671652561519' style='position: relative'>
+    <noscript>
+      <a href='#'>
+        <img alt='Dashboard BW '
+             src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ra&#47;Radfahren_BW_2021&#47;DashboardBW&#47;1_rss.png'
+             style='border: none' />
+      </a>
+    </noscript>
+    <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+      <param name='embed_code_version' value='3' /> 
+      <param name='site_root' value='' />
+      <param name='name' value='Radfahren_BW_2021&#47;DashboardBW' />
+      <param name='tabs' value='no' />
+      <param name='toolbar' value='yes' />
+      <param name='static_image' 
+             value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ra&#47;Radfahren_BW_2021&#47;DashboardBW&#47;1.png' /> 
+      <param name='animate_transition' value='yes' />
+      <param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' />
+      <param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+      <param name='language' value='de-DE' />
+    </object>
+  </div>                
+  <script type='text/javascript'>                    
+    var divElement = document.getElementById('viz1671652561519');                    
+    var vizElement = divElement.getElementsByTagName('object')[0];                    
+    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1300px';vizElement.style.height='827px';} 
+    else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1300px';vizElement.style.height='827px';} 
+    else { vizElement.style.width='100%';vizElement.style.height='1127px';}                     
+    var scriptElement = document.createElement('script');                    
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+  </script>
 </p>
 
 ## Project 2: _Cable News Network (CNN)<br/>(Python)_
