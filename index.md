@@ -35,27 +35,23 @@ The goal of this project is to create an interactive dashboard using the clean d
 
 The dashboard is comprised of four elements. First, a map of Baden-Württemberg consisting of three individual layers (regions, zip codes and points of interest) that can be toggled on and off. Second, a sunburst chart that displays the distribution of main an sub-categories for the map selection. Third, a bump-chart representing the progression of the main categories in regard to their rank of importance for the map selection. Fourth, a legend that simultaneously acts as a filter for the main categories.
 
-<!-- JS file to enable the JavaScript API. You can point at the
-  version on public.tableau.com, online.tableau.com, or your on-prem Server -->
-<script src="https://www.example.com/javascripts/api/tableau-2.js"></script>
-...
-<!-- Empty div where the viz will be placed -->
-<div id="tableauViz"></div>
+<!-- 
+This <script> tag links to the Embedding API library as a JavaScript ES6 module. 
+To use the library in your web application, you need to set the type attribute to 
+module in the <script> tag. 
+-->
 
-function initializeViz() {
-  // JS object that points at empty div in the html
-  var placeholderDiv = document.getElementById("tableauViz");
-  // URL of the viz to be embedded
-  var url = "https://public.tableau.com/app/profile/vollenia/viz/Radfahren_BW_2021/DashboardBW";
-  // An object that contains options specifying how to embed the viz
-  var options = {
-    width: '600px',
-    height: '600px',
-    hideTabs: true,
-    hideToolbar: true,
-  };
-  viz = new tableau.Viz(placeholderDiv, url, options);
-}
+<script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+
+<!-- 
+Initialize the API as part of your HTML code by using the <tableau-viz> web component. 
+After linking to the API library, the following code is all you need to embed a Tableau view into your HTML pages.
+-->
+
+<tableau-viz id="tableauViz"       
+  src='https://public.tableau.com/app/profile/vollenia/viz/Radfahren_BW_2021/DashboardBW'      
+  height='800px' width='600px' toolbar='bottom' hide-tabs>
+</tableau-viz>
 
 ## Project 2: _Cable News Network (CNN)<br/>(Python)_
 In the digital world of today, data is produced at an ever-increasing pace. There are many available datasets already to perform analysis on and using a pre-made dataset eliminates the need of identifying data sources and collecting the data oneself. This is, without a doubt, a benefit in the majority of cases but can also be a constraint. It becomes more convenient to lean towards a pre-made dataset than going the distance and collecting one’s own data, with all the extra steps that are involved. There seems to be no need to re-analyze "popular" datasets for the n<sup>th</sup> time, while the amounts of freely accessible data and therefore, the number of interesting insights to gather, seem countless. The question is, _what do you want to know_?
