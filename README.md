@@ -32,6 +32,10 @@ Covered aspects:
 
 ## [1.2 Creating an Interactive Dashboard](https://public.tableau.com/app/profile/vollenia/viz/Radfahren_BW_2021/DashboardBW)
 
+The goal of this project is to create an interactive dashboard using the clean dataset created in [1.1](https://github.com/vollenia/cycling_complaints_bw_swr). Presenting the data in this way, will make the information and therefore, the insights accessible to a wide range of people while also allowing them to tailor it to their personal needs.
+
+[Tableau Public](https://public.tableau.com/app/discover), a free visualization plattform, was selected for this task. While missing some features from its payed service, it still provides a relatively wide range of tools for creating and hosting dashboards.
+
 ## Project 2: _Cable News Network (CNN)<br/>(Python)_
 In the digital world of today, data is produced at an ever-increasing pace. There are many available datasets already to perform analysis on and using a pre-made dataset eliminates the need of identifying data sources and collecting the data oneself. This is, without a doubt, a benefit in the majority of cases but can also be a constraint. It becomes more convenient to lean towards a pre-made dataset than going the distance and collecting one’s own data, with all the extra steps that are involved. There seems to be no need to re-analyze "popular" datasets for the n<sup>th</sup> time, while the amounts of freely accessible data and therefore, the number of interesting insights to gather, seem countless. The question is, _what do you want to know_?
 
