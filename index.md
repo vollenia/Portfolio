@@ -48,7 +48,7 @@ Initialize the API as part of your HTML code by using the <tableau-viz> web comp
 After linking to the API library, the following code is all you need to embed a Tableau view into your HTML pages.
 -->
 
-<tableau-viz id="viz1671652561519"       
+<tableau-viz id="tableauViz"       
   src='https://public.tableau.com/app/profile/vollenia/viz/Radfahren_BW_2021/DashboardBW'      
   height='600px' width='600px' toolbar='bottom' hide-tabs>
 </tableau-viz>
