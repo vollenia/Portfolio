@@ -35,7 +35,7 @@ The goal of this project is to create an interactive dashboard using the clean d
 
 The dashboard is comprised of four elements. First, a map of Baden-Württemberg consisting of three individual layers (regions, zip codes and points of interest) that can be toggled on and off. Second, a sunburst chart that displays the distribution of main an sub-categories for the map selection. Third, a bump-chart representing the progression of the main categories in regard to their rank of importance for the map selection. Fourth, a legend that simultaneously acts as a filter for the main categories.
 
-<div class='tableauPlaceholder' id='viz1671652561519' style='position: fixed'>
+<div class='tableauPlaceholder' id='viz1671652561519' style='position: relative'>
   <noscript>
     <a href='#'>
       <img alt='Dashboard BW '
@@ -62,9 +62,8 @@ The dashboard is comprised of four elements. First, a map of Baden-Württemberg 
 <script type='text/javascript'>                    
   var divElement = document.getElementById('viz1671652561519');                    
   var vizElement = divElement.getElementsByTagName('object')[0];                    
-  if ( divElement.offsetWidth > 800 ) { vizElement.style.width='80%';vizElement.style.height='80%';} 
-  else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height='100%';} 
-  else { vizElement.style.width='1000px';vizElement.style.height='500px';}                     
+  vizElement.style.width='80%';
+  vizElement.style.height='80%';                     
   var scriptElement = document.createElement('script');                    
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
   vizElement.parentNode.insertBefore(scriptElement, vizElement);                
