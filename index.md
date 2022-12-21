@@ -48,7 +48,7 @@ The dashboard is comprised of four elements. First, a map of Baden-Württemberg 
     <param name='site_root' value='' />
     <param name='name' value='Radfahren_BW_2021&#47;DashboardBW' />
     <param name='tabs' value='no' />
-    <param name='toolbar' value='yes' />
+    <param name='toolbar' value='no' />
     <param name='static_image' 
            value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ra&#47;Radfahren_BW_2021&#47;DashboardBW&#47;1.png' /> 
     <param name='animate_transition' value='yes' />
@@ -61,10 +61,7 @@ The dashboard is comprised of four elements. First, a map of Baden-Württemberg 
 </div>                
 <script type='text/javascript'>                    
   var divElement = document.getElementById('viz1671652561519');                    
-  var vizElement = divElement.getElementsByTagName('object')[0];                    
-  if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';} 
-  else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';} 
-  else { vizElement.style.width='100%';}                     
+  var vizElement = divElement.getElementsByTagName('object')[0];                     
   var scriptElement = document.createElement('script');                    
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
   vizElement.parentNode.insertBefore(scriptElement, vizElement);                
