@@ -39,7 +39,7 @@ The goal of this project is to create an interactive dashboard using the clean d
 The dashboard is comprised of four elements. First, a map of Baden-Württemberg consisting of three individual layers (regions, zip codes and points of interest) that can be toggled on and off. Second, a sunburst chart that displays the distribution of main an sub-categories for the map selection. Third, a bump-chart representing the progression of the main categories in regard to their rank of importance for the map selection. Fourth, a legend that simultaneously acts as a filter for the main categories.
 
 <p align="center">
-  <a target="_blank" href="https://public.tableau.com/app/profile/vollenia/viz/Radfahren_BW_2021/DashboardBW">
+  <a href="https://public.tableau.com/app/profile/vollenia/viz/Radfahren_BW_2021/DashboardBW" target="_blank">
     <img src="assets/images/cycling_bw_2021_tableau.png" width="100%" />
   </a>
 </p>
