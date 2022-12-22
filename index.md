@@ -39,10 +39,10 @@ The dashboard is comprised of four elements. First, a map of Baden-Württemberg 
 	style="transform: scale(0.5); 
 	       width: 1300px; 
 	       height: 827px; 
-	       margin-top: -300px;
-	       margin-bottom: -300px;
-	       margin-left: -300px
-	       margin-right: -300px"
+	       margin-top: -200px;
+	       margin-bottom: -200px;
+	       margin-left: -500px
+	       margin-right: -500px"
 	src="https://public.tableau.com/views/Radfahren_BW_2021/DashboardBW?:embed=yes&:display_count=yes&:showVizHome=no"
 	scrolling='no' >
 </iframe>
