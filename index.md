@@ -36,7 +36,13 @@ The goal of this project is to create an interactive dashboard using the clean d
 The dashboard is comprised of four elements. First, a map of Baden-Württemberg consisting of three individual layers (regions, zip codes and points of interest) that can be toggled on and off. Second, a sunburst chart that displays the distribution of main an sub-categories for the map selection. Third, a bump-chart representing the progression of the main categories in regard to their rank of importance for the map selection. Fourth, a legend that simultaneously acts as a filter for the main categories.
 
 <iframe seamless frameborder="0"
-	style="transform-origin: 0px 0px ; transform: scale(0.5); width: 1300px; height: 827px; margin-bottom: -300px;"
+	style="transform: scale(0.5); 
+	       width: 1300px; 
+	       height: 827px; 
+	       margin-top: -300px;
+	       margin-bottom: -300px;
+	       margin-left: -300px
+	       margin-right: -300px"
 	src="https://public.tableau.com/views/Radfahren_BW_2021/DashboardBW?:embed=yes&:display_count=yes&:showVizHome=no"
 	scrolling='no' >
 </iframe>
