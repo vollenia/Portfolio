@@ -35,14 +35,11 @@ The goal of this project is to create an interactive dashboard using the clean d
 
 The dashboard is comprised of four elements. First, a map of Baden-Württemberg consisting of three individual layers (regions, zip codes and points of interest) that can be toggled on and off. Second, a sunburst chart that displays the distribution of main an sub-categories for the map selection. Third, a bump-chart representing the progression of the main categories in regard to their rank of importance for the map selection. Fourth, a legend that simultaneously acts as a filter for the main categories.
 
-<iframe seamless frameborder="0" scale="tofit"
+<iframe seamless frameborder="0"
+	style="transform-origin: 200px 150px ; transform: scale(0.8); width: 800px; height: 500px;"
 	src="https://public.tableau.com/views/Radfahren_BW_2021/DashboardBW?:embed=yes&:display_count=yes&:showVizHome=no"
-	width = "100%"
-	height = "500px"
-	scrolling='yes' >
+	scrolling='no' >
 </iframe>
-
-transform: scale(0.5)
 
 ## Project 2: _Cable News Network (CNN)<br/>(Python)_
 In the digital world of today, data is produced at an ever-increasing pace. There are many available datasets already to perform analysis on and using a pre-made dataset eliminates the need of identifying data sources and collecting the data oneself. This is, without a doubt, a benefit in the majority of cases but can also be a constraint. It becomes more convenient to lean towards a pre-made dataset than going the distance and collecting one’s own data, with all the extra steps that are involved. There seems to be no need to re-analyze "popular" datasets for the n<sup>th</sup> time, while the amounts of freely accessible data and therefore, the number of interesting insights to gather, seem countless. The question is, _what do you want to know_?
