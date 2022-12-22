@@ -37,7 +37,7 @@ The dashboard is comprised of four elements. First, a map of Baden-Württemberg 
 
 <p align="center">
 <iframe seamless frameborder="0"
-	style="transform: scale(0.62); 
+	style="transform: scale(0.64); 
 	       width: 1300px; 
 	       height: 827px; 
 	       padding-top: 0px;
