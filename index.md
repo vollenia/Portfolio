@@ -93,15 +93,9 @@ Covered aspects:
 * The year viewed as a workweek
 * Density of publications for individual months contrasted against the whole year
 
-The dashboard consists of two main pages where the first page displays the _Year_ view and the second the _Months_ view with their corresponding plots. The user can switch freely between the two pages using the widget located under _Settings_ in the sidebar. 
+The dashboard consists of two main pages where the first page displays the _Year_ view and the second the _Months_ view with their corresponding plots. The user can switch freely between the two pages using the widget located under _Settings_ in the sidebar. While the _Year_ view consists of three plots, the _Months_ view allows for displaying the same three plots for each of the individual months. The months can be navigated through the widget located at the top of the Months page.
 
-<video src="https://user-images.githubusercontent.com/83287775/173898878-79f9a429-39ac-427e-8e5e-9eb20f4e13b5.mov" controls="controls" width="100%">
-</video>
-
-While the _Year_ view consists of three plots, the _Months_ view allows for displaying the same three plots for each of the individual months. The months can be navigated through the widget located at the top of the Months page.
-
-<video src="https://user-images.githubusercontent.com/83287775/173898977-9c4b8a90-f4d0-4832-8cb5-c37f61794500.mov" controls="controls" width="100%">
-</video>
+<video src="https://user-images.githubusercontent.com/83287775/229500073-cd45c51f-dab8-487e-bd50-6d96076fa462.mov" controls="controls" width="100%"> </video>
 
 # II. Deep Learning
 
